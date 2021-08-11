@@ -10,13 +10,16 @@ function Counter({ increment, decrement, count }) {
     </div>
   );
 }
-
+/* connect returns a function you can call 
+passing in the component. 
+It sort of produces a HO compenent,
+that wraps around the Counter component. */
 export default connect(
-  state => ({
-    count: state.count
+  (state) => ({
+    count: state.count,
   }),
-  dispatch => ({
+  (dispatch) => ({
     increment: () => dispatch({ type: "INCREMENT" }),
-    decrement: () => dispatch({ type: "DECREMENT" })
+    decrement: () => dispatch({ type: "DECREMENT" }),
   })
 )(Counter);

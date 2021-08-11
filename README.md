@@ -23,3 +23,11 @@ The corresponding article and videos can be found at [https://www.leighhalliday.
 - [Async Methods](https://testing-library.com/docs/dom-testing-library/api-async/)
 
 ### 6. [React Testing Library - Testing a mock Axios request](https://www.youtube.com/watch?v=Ngj2f1n9pUw&list=PL8fumNHsC-3NaPNxh2bous6bBDWwJ4r1-&index=6)
+
+- [act](https://testing-library.com/docs/preact-testing-library/api/#act)
+
+### 7. [The useEffect hook and its lifecycle](https://www.youtube.com/watch?v=Y0zkFkbtoeA&list=PL8fumNHsC-3NaPNxh2bous6bBDWwJ4r1-&index=7)
+
+### 8. [React Testing Library - Testing Redux](https://www.youtube.com/watch?v=vbvQzWDCuXU&list=PL8fumNHsC-3NaPNxh2bous6bBDWwJ4r1-&index=8)
+
+- [ByTestId](https://testing-library.com/docs/queries/bytestid/#overriding-data-testid)
