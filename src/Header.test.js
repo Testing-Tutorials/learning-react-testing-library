@@ -1,11 +1,13 @@
 import React from "react";
-import { render, cleanup } from "react-testing-library";
-import "jest-dom/extend-expect";
+import { render, cleanup } from "@testing-library/react";
+import "@testing-library/jest-dom/extend-expect";
 import Header from "./Header";
 
 afterEach(cleanup);
 
 it("renders", () => {
+  /* render retruns as some other functions specified to the compenent that we are testing */
+  /* asFragment is a chunck of what this component rendered */
   const { asFragment } = render(<Header text="Hello!" />);
   expect(asFragment()).toMatchSnapshot();
 });

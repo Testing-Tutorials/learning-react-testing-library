@@ -13,3 +13,7 @@
 - testing reach router
 
 The corresponding article and videos can be found at [https://www.leighhalliday.com/introduction-react-testing-library](https://www.leighhalliday.com/introduction-react-testing-library)
+
+- Together with `react-testing-library`, goes `jest-dom`. It gives you some nice `expect` to have this content, or this h2 to have a class or an attribute.
+- [render](https://testing-library.com/docs/angular-testing-library/api/#render)
+- [asFragment](https://testing-library.com/docs/react-testing-library/api/#asfragment)
