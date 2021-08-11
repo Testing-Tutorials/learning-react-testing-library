@@ -1,8 +1,8 @@
 import React from "react";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
-import { render, fireEvent, cleanup } from "react-testing-library";
-import "jest-dom/extend-expect";
+import { render, fireEvent, cleanup } from "@testing-library/react";
+import "@testing-library/jest-dom/extend-expect";
 import Counter from "./Counter";
 
 afterEach(cleanup);
@@ -24,7 +24,7 @@ function renderWithRedux(
   { initialState, store = createStore(reducer, initialState) } = {}
 ) {
   return {
-    ...render(<Provider store={store}>{component}</Provider>)
+    ...render(<Provider store={store}>{component}</Provider>),
   };
 }
 
@@ -47,7 +47,7 @@ it("can decrement", () => {
 
 it("can have initial state", () => {
   const { getByTestId } = renderWithRedux(<Counter />, {
-    initialState: { count: 5 }
+    initialState: { count: 5 },
   });
   expect(getByTestId("count")).toHaveTextContent("5");
 });

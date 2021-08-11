@@ -7,9 +7,9 @@ export default function Clickers() {
     setCount(count + 1);
   };
   const decrease = () => {
-    setTimeout(() => {
-      setCount(count - 1);
-    }, 250);
+    // setTimeout(() => {
+    setCount(count - 1);
+    // }, 250);
   };
 
   return (

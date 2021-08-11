@@ -8312,7 +8312,7 @@
     "strip-ansi" "4.0.0"
     "text-table" "0.2.0"
 
-"react-dom@*", "react-dom@15.x || 16.x || 16.4.0-alpha.0911da3", "react-dom@16.8.4":
+"react-dom@*", "react-dom@^16.8.4", "react-dom@15.x || 16.x || 16.4.0-alpha.0911da3":
   "integrity" "sha512-Ob2wK7XG2tUDt7ps7LtLzGYYB6DXMCLj0G5fO6WeEICtT4/HdpOi7W/xLzZnR6RCG1tYza60nMdqtxzA8FaPJQ=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-16.8.4.tgz"
   "version" "16.8.4"
@@ -8434,7 +8434,7 @@
   optionalDependencies:
     "fsevents" "1.2.4"
 
-"react@*", "react@^0.13.0 || ^0.14.0 || ^15.0.0 || ^16.0.0", "react@^0.14.0 || ^15.0.0 || ^16.0.0", "react@^16.0.0", "react@^16.4.0-0", "react@>=15", "react@15.x || 16.x || 16.4.0-alpha.0911da3", "react@16.8.4":
+"react@*", "react@^0.13.0 || ^0.14.0 || ^15.0.0 || ^16.0.0", "react@^0.14.0 || ^15.0.0 || ^16.0.0", "react@^16.0.0", "react@^16.4.0-0", "react@^16.8.4", "react@>=15", "react@15.x || 16.x || 16.4.0-alpha.0911da3":
   "integrity" "sha512-0GQ6gFXfUH7aZcjGVymlPOASTuSjlQL4ZtVC5YKH+3JL6bBLCVO21DknzmaPlI90LN253ojj02nsapy+j7wIjg=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.8.4.tgz"
   "version" "16.8.4"

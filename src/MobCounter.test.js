@@ -1,6 +1,6 @@
 import React from "react";
-import { render, cleanup, fireEvent } from "react-testing-library";
-import "jest-dom/extend-expect";
+import { render, cleanup, fireEvent } from "@testing-library/react";
+import "@testing-library/jest-dom/extend-expect";
 import { Provider } from "mobx-react";
 import { observable, action, decorate } from "mobx";
 import MobCounter from "./MobCounter";
@@ -22,10 +22,10 @@ class CounterStore {
 const DecoratedCounterStore = decorate(CounterStore, {
   count: observable,
   increment: action,
-  decrement: action
+  decrement: action,
 });
 
-const renderWithStore = counterStore =>
+const renderWithStore = (counterStore) =>
   render(
     <Provider CounterStore={counterStore}>
       <MobCounter />
