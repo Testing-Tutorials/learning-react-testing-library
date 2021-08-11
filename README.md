@@ -21,3 +21,5 @@ The corresponding article and videos can be found at [https://www.leighhalliday.
 ### 5. [React Testing Library - Events and Async](https://www.youtube.com/watch?v=SSyy2sHpmIA&list=PL8fumNHsC-3NaPNxh2bous6bBDWwJ4r1-&index=5)
 
 - [Async Methods](https://testing-library.com/docs/dom-testing-library/api-async/)
+
+### 6. [React Testing Library - Testing a mock Axios request](https://www.youtube.com/watch?v=Ngj2f1n9pUw&list=PL8fumNHsC-3NaPNxh2bous6bBDWwJ4r1-&index=6)

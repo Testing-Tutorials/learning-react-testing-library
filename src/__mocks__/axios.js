@@ -1,3 +1,4 @@
 export default {
-  get: jest.fn().mockResolvedValue({ data: {} })
+  /* jest.fn() is like a faked out mock version of a function */
+  get: jest.fn().mockResolvedValue({ data: {} }),
 };
